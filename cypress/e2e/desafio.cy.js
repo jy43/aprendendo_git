@@ -18,7 +18,7 @@ screens.forEach(element => {
             if(element != 'desktop') {
                 cy.viewport(element)    
             }
-           
+        //    teste
             //Acessando tela de cadastro de usuário
             home_page.accessRegisterPage()
         })
